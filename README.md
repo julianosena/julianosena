@@ -1,16 +1,23 @@
-## Hi there 👋
+<p align="center">
+  <img src="./banner.png" alt="Banner" width="100%" />
+</p>
 
-<!--
-**julianosena/julianosena** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👋 Hi, I’m Juliano
 
-Here are some ideas to get you started:
+**Senior Software Engineer & DevOps Practitioner** — building reliable, scalable backend systems and cloud infrastructure.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚙️ What I Do
+- Backend development using **Kotlin** / **Java** + **Spring Boot**  
+- DevOps & Cloud: **AWS**, CI/CD, monitoring, infrastructure as code  
+- Data transformation, JSON processing, API integrations  
+- Distributed systems, microservices & scalable architectures  
+
+## 🛠️ Tech Stack
+`Kotlin · Java · Go · Rust · Spring Boot · AWS · Docker · Kubernetes · Terraform · JSON · REST · Microservices · CI/CD · Monitoring`
+
+## 📫 Get in Touch
+- 🟦 [LinkedIn](https://www.linkedin.com/in/julianosena/)  
+- 📧 Email: you@your-email.com  
+- 🌐 Portfolio / Blog: [your-portfolio.com](https://your-portfolio.com)  <!-- optional -->
+
+> “I value honesty, integrity, and prioritizing solving clients’ problems over maximizing profit.”  
