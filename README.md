@@ -2,11 +2,11 @@
   <img src="./banner.png" alt="Banner" width="100%" />
 </p>
 
-# 👋 Hi, I’m Juliano
+# I’m Juliano
 
 **Senior Software Engineer & DevOps Practitioner** — building reliable, scalable backend systems and cloud infrastructure.
 
-## ⚙️ What I Do
+## What I Do
 - Backend development using **Kotlin** / **Java** + **Spring Boot**  
 - DevOps & Cloud: **AWS**, CI/CD, monitoring, infrastructure as code  
 - Data transformation, JSON processing, API integrations  
@@ -17,7 +17,7 @@
 
 ## 📫 Get in Touch
 - 🟦 [LinkedIn](https://www.linkedin.com/in/julianosena/)  
-- 📧 Email: you@your-email.com  
-- 🌐 Portfolio / Blog: [your-portfolio.com](https://your-portfolio.com)  <!-- optional -->
+- 📧 Email: julianossc@gmail.com  
+- 🌐 Portfolio / Blog: [julianosena.com](https://julianosena.com)  <!-- optional -->
 
 > “I value honesty, integrity, and prioritizing solving clients’ problems over maximizing profit.”  
