@@ -16,8 +16,8 @@
 `Kotlin · Java · Go · Rust · Spring Boot · AWS · Docker · Kubernetes · Terraform · JSON · REST · Microservices · CI/CD · Monitoring`
 
 ## 📫 Get in Touch
-- <img src="./LinkedIn_icon.svg" width="16" /> [LinkedIn](https://www.linkedin.com/in/julianosena/)  
+- <img src="./linkedin-icon.svg" width="16" /> [LinkedIn](https://www.linkedin.com/in/julianosena/)  
 - 📧 Email: julianossc@gmail.com  
-- 🌐 Portfolio / Blog: [julianosena.com](https://julianosena.com)  <!-- optional -->
+- <img src="./blog-icon.svg" width="16" /> Portfolio / Blog: [julianosena.com](https://julianosena.com)  <!-- optional -->
 
 > “I value honesty, integrity, and prioritizing solving clients’ problems over maximizing profit.”  
