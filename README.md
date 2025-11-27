@@ -18,6 +18,6 @@
 ## 📫 Get in Touch
 - <img src="./linkedin-icon.svg" width="16" /> [LinkedIn](https://www.linkedin.com/in/julianosena/)  
 - 📧 Email: julianossc@gmail.com  
-- <img src="./blog-icon.svg" width="16" /> Portfolio / Blog: [julianosena.com](https://julianosena.com)  <!-- optional -->
+- <img src="./blog-icon.jpg" width="16" /> Portfolio / Blog: [julianosena.com](https://julianosena.com)  <!-- optional -->
 
 > “I value honesty, integrity, and prioritizing solving clients’ problems over maximizing profit.”  
