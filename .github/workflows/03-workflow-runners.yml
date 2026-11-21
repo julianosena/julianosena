@@ -1,5 +1,7 @@
 name: 03-workflow-runners.yml
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   ubuntu-echo:
