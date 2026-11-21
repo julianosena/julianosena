@@ -1,0 +1,439 @@
+:root {
+  color-scheme: dark;
+  --ink: #0b0b0b;
+  --paper: #eaeaea;
+  --muted: #686b6b;
+  font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--paper);
+  line-height: 1.55;
+}
+a {
+  color: inherit;
+  text-underline-offset: 0.24em;
+}
+a:hover,
+summary:hover {
+  text-decoration: underline;
+}
+:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 5px;
+}
+.shell {
+  width: min(88%, 76rem);
+  margin-inline: auto;
+}
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -5rem;
+  z-index: 3;
+  background: white;
+  color: black;
+  padding: 0.6rem;
+}
+.skip:focus {
+  top: 1rem;
+}
+header,
+nav,
+.actions,
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+header {
+  justify-content: space-between;
+  min-height: 5rem;
+}
+.logo {
+  width: 6rem;
+  display: block;
+}
+nav {
+  gap: clamp(0.8rem, 3vw, 2.5rem);
+}
+nav a,
+.button {
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-contact {
+  border: 1px solid #777;
+  border-radius: 0.4rem;
+  padding: 0.4rem 1.1rem;
+}
+.hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(11, 11, 11, 0.96),
+      rgba(11, 11, 11, 0.88) 58%,
+      rgba(11, 11, 11, 0.6)
+    ),
+    url('../assets/architecture.webp') center / cover;
+}
+.hero-inner {
+  display: grid;
+  grid-template-columns: minmax(12rem, 17rem) minmax(0, 1fr);
+  grid-template-areas: 'portrait copy';
+  align-items: center;
+  gap: clamp(2rem, 7vw, 7rem);
+  padding-block: clamp(2.5rem, 5vw, 5rem);
+}
+.hero-copy {
+  grid-area: copy;
+}
+.hero-portrait {
+  grid-area: portrait;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.4rem;
+}
+.eyebrow,
+.stack {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.82rem;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.06;
+  font-weight: 500;
+  text-wrap: balance;
+}
+h1 {
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  letter-spacing: -0.045em;
+  margin: 1rem 0 1.2rem;
+}
+h2 {
+  font-size: clamp(2.65rem, 5vw, 4.8rem);
+  letter-spacing: -0.065em;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-size: clamp(1.4rem, 2.2vw, 2rem);
+  letter-spacing: -0.035em;
+}
+.intro {
+  font-size: clamp(1.13rem, 2vw, 1.45rem);
+  max-width: 31rem;
+  color: #dedede;
+  line-height: 1.4;
+}
+.actions {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.button {
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 0.4rem;
+  padding: 0.75rem 1.2rem;
+}
+.button:focus-visible {
+  outline-color: white;
+}
+small {
+  font-size: 0.75rem;
+  color: #ccc;
+}
+.authorization {
+  display: grid;
+  gap: 0.12rem;
+  border-left: 3px solid var(--paper);
+  padding: 0.15rem 0 0.15rem 0.85rem;
+  margin-block: 1.2rem 1.6rem;
+}
+.authorization strong {
+  font-size: 1.18rem;
+}
+.authorization span {
+  font-size: 0.95rem;
+  color: #ddd;
+}
+.work-archive {
+  border-top: 1px solid #bbb;
+  margin-top: 1rem;
+}
+.work-archive summary {
+  font-weight: 600;
+}
+.subheading {
+  margin-top: 2.4rem;
+}
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  margin-bottom: 0;
+}
+.project-list dt,
+.project-list dd {
+  padding-block: 1rem;
+  border-top: 1px solid #bbb;
+}
+.project-list dt {
+  font-weight: 600;
+  padding-right: 1rem;
+}
+.project-list dd {
+  margin: 0;
+}
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+.tech-grid article {
+  padding-top: 1.1rem;
+  border-top: 1px solid #666;
+}
+.tech-grid h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+.tech-grid p {
+  color: #ccc;
+}
+#experience {
+  border-top: 1px solid #555;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-block: 2rem;
+}
+.metrics div {
+  display: grid;
+  padding-left: 12%;
+  border-left: 1px solid #434343;
+}
+.metrics div:first-child {
+  border: 0;
+  padding: 0;
+}
+.metrics strong {
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+}
+.metrics span,
+.role span {
+  color: #c0c0c0;
+  font-size: 0.95rem;
+}
+.section {
+  padding-block: clamp(3rem, 7vw, 6rem);
+}
+.light {
+  background: var(--paper);
+  color: var(--ink);
+  color-scheme: light;
+}
+.project,
+.role,
+.profile {
+  display: grid;
+  gap: clamp(1.25rem, 4vw, 4rem);
+}
+.project {
+  grid-template-columns: 1fr 1.2fr;
+  padding-block: 2rem;
+  border-top: 1px solid #b9baba;
+}
+.project:last-child {
+  padding-bottom: 0;
+}
+.project h3 {
+  margin: 0.65rem 0;
+  font-size: clamp(2rem, 3.5vw, 3.3rem);
+}
+.org {
+  color: #515353;
+  font-size: 0.96rem;
+}
+.project p + p {
+  margin-top: 0.85rem;
+}
+.stack {
+  color: #494b4b;
+}
+.role {
+  grid-template-columns: minmax(12rem, 1fr) 2fr;
+  border-top: 1px solid #444;
+  padding-block: 1.6rem;
+}
+.role p {
+  margin-top: 0.4rem;
+  color: #ccc;
+}
+summary {
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.profile {
+  grid-template-columns: 0.65fr 1.35fr;
+  align-items: start;
+}
+
+.profile h3 {
+  font-size: 1.24rem;
+  margin: 1.4rem 0 0.45rem;
+}
+.email {
+  font-size: clamp(1.5rem, 4vw, 3.5rem);
+  letter-spacing: -0.04em;
+}
+footer h2 {
+  margin: 0.8rem 0 1.2rem;
+}
+.footer-links {
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin-top: 2.5rem;
+}
+@media (max-width: 42rem) {
+  .shell {
+    width: 90%;
+  }
+  header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-block: 0.8rem;
+  }
+  nav {
+    flex-wrap: wrap;
+    font-size: 0.88rem;
+  }
+  .logo {
+    width: 4rem;
+  }
+  .nav-contact {
+    padding: 0.28rem 0.55rem;
+  }
+  .hero {
+    background-position: 66% center;
+  }
+  .hero-inner {
+    grid-template-columns: clamp(5rem, 20vw, 7rem) minmax(0, 1fr);
+    grid-template-areas: 'portrait role' 'portrait name' 'auth auth' 'intro intro' 'actions actions';
+    gap: 0.5rem 1rem;
+    padding-block: 1.4rem 2.3rem;
+  }
+  .hero-copy {
+    display: contents;
+  }
+  .hero-copy .eyebrow {
+    grid-area: role;
+    align-self: end;
+  }
+  .hero-copy h1 {
+    grid-area: name;
+    margin: 0;
+    align-self: start;
+  }
+  .hero-copy .authorization {
+    grid-area: auth;
+    margin-block: 1rem;
+  }
+  .hero-copy .intro {
+    grid-area: intro;
+  }
+  .hero-copy .actions {
+    grid-area: actions;
+    margin-top: 1rem;
+  }
+  .hero-portrait {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center 24%;
+  }
+  .hero {
+    background-image:
+      linear-gradient(90deg, rgba(11, 11, 11, 0.96), rgba(11, 11, 11, 0.78)),
+      url('../assets/architecture.webp');
+  }
+  .tech-grid,
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+  .project-list dt {
+    padding-bottom: 0.25rem;
+  }
+  .project-list dd {
+    border: 0;
+    padding-top: 0;
+  }
+  .intro {
+    max-width: 24rem;
+    text-shadow: 0 1px 4px black;
+  }
+  .metrics {
+    gap: 0.5rem;
+  }
+  .metrics span {
+    font-size: 0.82rem;
+  }
+  .project,
+  .role,
+  .profile {
+    grid-template-columns: 1fr;
+  }
+  .role {
+    gap: 0.55rem;
+  }
+}
+
+.project-result {
+  display: grid;
+  gap: 0.35rem;
+  border-left: 0.22rem solid var(--ink);
+  padding-left: 1rem;
+}
+.project-result strong {
+  font-size: clamp(1.85rem, 3vw, 2.6rem);
+  line-height: 1.12;
+  letter-spacing: -0.045em;
+}
+.client-scale {
+  margin-top: 1rem;
+  padding: 0.8rem 1rem;
+  background: #dedede;
+  border-radius: 0.2rem;
+}
+.scale-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #444;
+}
+.client-scale p {
+  margin-block: 0.25rem;
+}
+.client-scale a {
+  font-size: 0.86rem;
+  color: #454545;
+}
