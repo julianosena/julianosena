@@ -21,3 +21,6 @@
 - <img src="./blog-icon.jpg" width="16" /> Portfolio / Blog: [julianosena.com](https://julianosena.com)  <!-- optional -->
 
 > “I value honesty, integrity, and prioritizing solving clients’ problems over maximizing profit.”  
+
+Portfolio website
+https://portfolio.julianosena.com
