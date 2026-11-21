@@ -4,7 +4,7 @@ A single-page Vue 3 portfolio. Vite serves the app during development. Vite SSG 
 
 ## Local development
 
-From this directory, use Node.js 22.12 or later and run:
+Use Node.js 26.13.1. From this directory, run `nvm install` if you use nvm, or `asdf install` if you use asdf with its Node.js plugin. npm enforces the exact Node.js version declared in `package.json` during installation.
 
 ```sh
 npm ci
